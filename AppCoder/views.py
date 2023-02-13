@@ -120,3 +120,6 @@ def busquedaEntre(request):
    else:
        respuesta="No enviaste los datos"
        return HttpResponse(respuesta)
+
+def __str__(self):
+        return f"Nombre: {self.nombre} - Apellido {self.apellido} - E-Mail {self.email} - Profesión {self.profesion}"
